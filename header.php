@@ -7,9 +7,9 @@
   <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class('bg-light'); ?>>
 
-<?php k2b4_navbar_before();?>
+<!-- <?php k2b4_navbar_before();?>
 
 <nav id="navbar" class="navbar navbar-expand-md navbar-light bg-light">
   <div class="container">
@@ -37,6 +37,28 @@
     </div>
 
   </div>
-</nav>
+</nav> -->
 
-<?php k2b4_navbar_after();?>
+<!-- <?php k2b4_navbar_after();?> -->
+<div class="container bg-white px-0 pb-0 pt-4">
+  <div class="jumbotron pb-0 bg-primary d-flex flex-column">
+      <h1 class="h1"><?php echo get_bloginfo( 'name' ); ?></h1>
+      <p class=""><?php echo get_bloginfo( 'description' ); ?></p>
+      <ul class="nav nav-tabs mt-auto" role="tablist"> 
+          <li class="nav-item"> 
+              <a class="nav-link active" href="#" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true">Home</a> 
+          </li>                     
+
+          <li class="nav-item"> 
+              <a class="nav-link" href="#" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true">Profile</a> 
+          </li>                     
+
+          <li class="nav-item"> 
+              <a class="nav-link" href="#" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true">Messages</a> 
+          </li>                     
+
+          <li class="nav-item"> 
+              <a class="nav-link" href="#" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true">Settings</a> 
+          </li>                     
+      </ul>
+  </div>
