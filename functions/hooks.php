@@ -77,7 +77,7 @@ function k2b4_bottomline() {
           <p class="text-center text-sm-left">&copy; <?php echo date('Y'); ?> <a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></p>
         </div>
         <div class="col-sm">
-          <p class="text-center text-sm-right"><a href="https://github.com/SimonPadbury/k2b4">k2b4</a> theme for WordPress</p>
+          <p class="text-center text-sm-right"><a href="https://github.com/mrpatg/k2b4/">k2b4</a> theme for WordPress</p>
         </div>
       </div>
     </div>

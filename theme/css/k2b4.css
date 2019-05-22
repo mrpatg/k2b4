@@ -117,20 +117,12 @@ h6,
 }
 h1, .h1{
 	font-weight:700;
-	font-size:2rem;
 }
 h4, .h4{
 	font-weight: normal;
-	font-size:1rem;
 }
 .bg-light{
 	background-color:#eeeeee!important;
-}
-body{
-	color:#333333!important;
-}
-.bg-primary{
-    background-color: #3371A3!important;
 }
 .jumbotron, .jumbotron a, .jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron h4, .jumbotron h5{
 	color:#ffffff!important;
@@ -152,6 +144,9 @@ body{
 	background-color:#333333!important;
 	color:#ffffff!important;
 }
+.nav-tabs .nav-link.active{
+	background-color: #ffffff!important;
+}
 .nav-tabs{
 	border-bottom:none;
 }
@@ -172,3 +167,5 @@ body{
 .sidebar ul, .sidebar ol {
     padding: 1px 0;
 }
+
+/* 3371A3 */
