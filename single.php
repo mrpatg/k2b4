@@ -6,7 +6,7 @@
 <main id="main" class="container mt-5">
   <div class="row">
 
-    <div class="col-sm">
+    <div class="col col-md-9">
       <div id="content" role="main">
         <?php get_template_part('loops/single-post', get_post_format()); ?>
       </div><!-- /#content -->

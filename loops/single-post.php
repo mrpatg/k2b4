@@ -24,34 +24,6 @@
         wp_link_pages();
       ?>
     </section>
-    <footer class="mt-5 border-top pt-3">
-      <div>
-        <?php _e('Category: ', 'k2b4'); the_category(', ') ?> | <?php if (has_tag()) { the_tags('Tags: ', ', '); ?> | <?php } _e('Comments', 'k2b4'); ?>: <?php printf( number_format_i18n( get_comments_number() ) ); ?>
-      </div>
-
-      <div class="author-bio media mt-5">
-        <?php k2b4_author_avatar(); ?>
-        <div class="media-body ml-3">
-          <p class="h4 author-name"><?php _e('Author: ', 'k2b4'); the_author_posts_link(); ?></p>
-          <?php if (k2b4_author_description()) {
-            ?>
-            <div class="author-description"><?php k2b4_author_description(); ?></div>
-            <?php
-          } ?>
-          <p class="author-other-posts mb-0"><?php _e('Other posts by ', 'k2b4'); the_author_posts_link(); ?></p>
-        </div>
-      </div><!-- /.author-bio -->
-
-      <div class="row mt-5 border-top pt-3">
-        <div class="col">
-          <?php previous_post_link('%link', '<i class="fas fa-fw fa-arrow-left"></i> Previous post<br/>'.'%title'); ?>
-        </div>
-        <div class="col text-right">
-          <?php next_post_link('%link', 'Next post <i class="fas fa-fw fa-arrow-right"></i><br/>'.'%title'); ?>
-        </div>
-      </div>
-
-    </footer>
   </article>
 
 <?php

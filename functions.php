@@ -15,3 +15,11 @@ require get_template_directory() . '/functions/widgets.php';
 require get_template_directory() . '/functions/search-widget.php';
 require get_template_directory() . '/functions/index-pagination.php';
 require get_template_directory() . '/functions/single-split-pagination.php';
+require get_template_directory() . '/functions/class-wp-bootstrap-navwalker.php';
+
+/*
+Define Menu
+*/
+register_nav_menus( array(
+	'primary' => __( 'Primary Menu', 'b4k2' ),
+) );
