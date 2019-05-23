@@ -146,6 +146,7 @@ h4, .h4{
 }
 .nav-tabs .nav-link.active{
 	background-color: #ffffff!important;
+	color: #333333!important;
 }
 .nav-tabs{
 	border-bottom:none;
