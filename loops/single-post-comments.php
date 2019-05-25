@@ -81,7 +81,7 @@ if (have_comments()) : ?>
   );?>
 </h3>
 
-<p><i class="far fa-comment"></i> <?php
+<p><i class="la la-comment"></i> <?php
     $comment_count = get_comments_number();
     if ( '1' === $comment_count ) {
       printf(
