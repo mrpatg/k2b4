@@ -38,3 +38,14 @@ That is some guy from a pexels picture. I needed to church up the background and
 ## Your code is trash
 
 Better than your moms.
+
+## License
+
+The amalgomation of code that I have assembled here is licensed through UNLICENSE. That means, you can do whatever you want with this, but I won't help you, and I am not responsisble for you.
+
+## Dependencies
+
+* <a href="https://github.com/twbs/bootstrap">Bootstrap (MIT)</a>
+* <a href="https://github.com/icons8/line-awesome">Lineawesome (GoodBoy)</a>
+* <a href="https://github.com/modernizr/modernizr">Modernizr (MIT)</a>
+
