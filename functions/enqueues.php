@@ -11,7 +11,7 @@ if ( ! function_exists('k2b4_enqueues') ) {
 		wp_register_style('bootstrap', get_template_directory_uri() . '/theme/css/bootstrap.min.css', false, '4.3.1', null);
 		wp_enqueue_style('bootstrap');
 
-		wp_register_style('lineawesome', get_template_directory_uri() . '/theme/css/lineawesome.css', false, '1.1.0', null);
+		wp_register_style('lineawesome', 'https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css', false, '1.1.0', null);
 		wp_enqueue_style('lineawesome');
 
 		wp_enqueue_style( 'gutenberg-blocks', get_template_directory_uri() . '/theme/css/blocks.css' );
