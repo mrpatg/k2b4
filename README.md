@@ -8,7 +8,8 @@ A bootstrap 4 remake of the k2 theme for WordPress
 ![UNLICENSE](https://img.shields.io/badge/license-UNLICENSE-blue.svg)
 
 
-![alt text](https://github.com/mrpatg/k2b4/blob/master/screenshot.jpg)
+![k2b4 screenshot](https://github.com/mrpatg/k2b4/blob/master/screenshot.jpg)
+![mobile menu](https://github.com/mrpatg/k2b4/blob/master/screenshot.jpg)
 
 ## Installation
 
