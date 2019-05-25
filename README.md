@@ -10,12 +10,12 @@ A bootstrap 4 remake of the k2 theme for WordPress
 
 ![alt text](https://github.com/mrpatg/k2b4/blob/master/screenshot.jpg)
 
-##Installation
+## Installation
 
 Download the repo or clone it, and install the theme. Nothing fancy going on here.
 
 
-##About Me
+## About Me
 
 Hey gang.
 
