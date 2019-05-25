@@ -9,7 +9,8 @@ A bootstrap 4 remake of the k2 theme for WordPress
 
 
 ![k2b4 screenshot](https://github.com/mrpatg/k2b4/blob/master/screenshot.jpg)
-![mobile menu](https://github.com/mrpatg/k2b4/blob/master/mobile_menu.gif)
+
+<img src="https://github.com/mrpatg/k2b4/blob/master/mobile_menu.gif" align="right" alt="mobile menu animation">
 
 ## Installation
 
