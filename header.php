@@ -43,25 +43,8 @@
   <!-- <?php k2b4_navbar_after(); ?> -->
   <div class="container bg-white px-0 pb-0 pt-4">
     <div class="jumbotron pt-5 pb-0 px-0 bg-primary d-flex flex-column">
-      <h1 class="h1 px-5"><?php echo get_bloginfo('name'); ?></h1>
+      <h1 class="h1 px-5"><a href="<?php echo home_url('/'); ?>"><?php echo get_bloginfo('name'); ?></a></h1>
       <p class="px-5"><?php echo get_bloginfo('description'); ?></p>
-      <!-- <ul class="d-none p-0 d-md-flex nav nav-tabs mt-auto" role="tablist"> 
-          <li class="nav-item"> 
-              <a class="nav-link active" href="#" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true">Home</a> 
-          </li>                     
-
-          <li class="nav-item"> 
-              <a class="nav-link" href="#" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true">Profile</a> 
-          </li>                     
-
-          <li class="nav-item"> 
-              <a class="nav-link" href="#" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true">Messages</a> 
-          </li>                     
-
-          <li class="nav-item"> 
-              <a class="nav-link" href="#" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true">Settings</a> 
-          </li>                     
-      </ul> -->
       <nav class="pb-0 justify-content-end mt-auto navbar navbar-expand-md" role="navigation">
         <div class="container">
           <?php

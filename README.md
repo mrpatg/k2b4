@@ -12,6 +12,10 @@ A bootstrap 4 remake of the k2 theme for WordPress
 
 <img src="https://github.com/mrpatg/k2b4/blob/master/mobile_menu.gif" align="right" alt="mobile menu animation">
 
+## Demo
+
+ A static generated demo of this theme is available [here](https://mrpatg.github.io/k2b4demo/). 
+
 ## Installation
 
 1. Download the repo or clone it
@@ -22,6 +26,10 @@ A bootstrap 4 remake of the k2 theme for WordPress
 
 * WordPress 5.0+ (Update your installs you goons.)
 * PHP 7+ (It will probably work on php 5x, but I don't want to support that. So you're on your own.)
+
+## Contributions
+
+Please submit any issues you find w/ the theme/layout. If you want to make fixes,do so and submit a pull request.
 
 ## Who the hell is that guy in the picture?
 
