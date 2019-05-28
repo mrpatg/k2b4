@@ -34,7 +34,7 @@ function k2b4_navbar_search()
         <input class="form-control border-secondary" type="text" value="<?php echo get_search_query(); ?>" placeholder="Search..." name="s" id="s">
         <div class="input-group-append">
           <button type="submit" id="searchsubmit" value="<?php esc_attr_x('Search', 'k2b4') ?>" class="btn btn-outline-secondary">
-            <i class="fas fa-search"></i>
+            <i class="fa fa-search"></i>
           </button>
         </div>
       </div>

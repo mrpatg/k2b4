@@ -16,8 +16,8 @@ function k2b4_pagination()
 		'total' => $wp_query->max_num_pages,
 		'mid_size' => 5,
 		'prev_next' => True,
-		'prev_text' => __('<i class="fas fa-angle-left"></i> Newer', 'k2b4'),
-		'next_text' => __('Older <i class="fas fa-angle-right"></i>', 'k2b4'),
+		'prev_text' => __('<i class="fa fa-angle-left"></i> Newer', 'k2b4'),
+		'next_text' => __('Older <i class="fa fa-angle-right"></i>', 'k2b4'),
 		'type' => 'list'
 	));
 	$paginate_links = str_replace("<ul class='page-numbers'>", "<ul class='pagination'>", $paginate_links);

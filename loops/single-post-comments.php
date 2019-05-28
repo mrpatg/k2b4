@@ -45,12 +45,12 @@ function k2b4_comment($comment, $args, $depth)
           <?php comment_reply_link(
             array_merge($args, array(
               'add_below' => $add_below,
-              'reply_text' => __('<i class="fas fa-reply"></i> Reply', 'textdomain'),
+              'reply_text' => __('<i class="fa fa-reply"></i> Reply', 'textdomain'),
               'depth' => $depth,
               'max_depth' => $args['max_depth']
             ))
           ); ?>
-          <?php edit_comment_link('<span class="btn btn-info">' . __('<i class="fas fa-edit"></i> Edit this reply', 'k2b4') . '</span>', ' ', ''); ?>
+          <?php edit_comment_link('<span class="btn btn-info">' . __('<i class="fa fa-edit"></i> Edit this reply', 'k2b4') . '</span>', ' ', ''); ?>
         </p>
       </div>
 
@@ -136,7 +136,7 @@ endif;
           <?php if (is_user_logged_in()) : ?>
             <p>
               <?php printf(__('Logged in as', 'k2b4') . ' <a href="%s/wp-admin/profile.php">%s</a>.', get_option('url'), $user_identity); ?>
-              <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="<?php __('Log out of this account', 'k2b4'); ?>"><?php echo __('Log out', 'k2b4') . ' <i class="fas fa-arrow-right"></i>'; ?></a>
+              <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="<?php __('Log out of this account', 'k2b4'); ?>"><?php echo __('Log out', 'k2b4') . ' <i class="fa fa-arrow-right"></i>'; ?></a>
             </p>
           <?php else : ?>
 

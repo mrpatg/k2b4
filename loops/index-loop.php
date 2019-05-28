@@ -18,9 +18,9 @@
   } else if (is_paged()) { ?>
     <ul class="pagination">
       <li class="page-item older">
-        <?php next_posts_link('<i class="fas fa-arrow-left"></i> ' . __('Previous', 'k2b4')) ?></li>
+        <?php next_posts_link('<i class="fa fa-arrow-left"></i> ' . __('Previous', 'k2b4')) ?></li>
       <li class="page-item newer">
-        <?php previous_posts_link(__('Next', 'k2b4') . ' <i class="fas fa-arrow-right"></i>') ?></li>
+        <?php previous_posts_link(__('Next', 'k2b4') . ' <i class="fa fa-arrow-right"></i>') ?></li>
     </ul>
   <?php } ?>
 

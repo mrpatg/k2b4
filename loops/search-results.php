@@ -16,6 +16,6 @@
   <?php endwhile;
 else : ?>
   <article class="alert alert-warning">
-    <i class="fas fa-exclamation-triangle"></i> <?php _e('Sorry, your search yielded no results.', 'k2b4'); ?>
+    <i class="fa fa-exclamation-triangle"></i> <?php _e('Sorry, your search yielded no results.', 'k2b4'); ?>
   </article>
 <?php endif; ?>
