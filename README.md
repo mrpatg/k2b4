@@ -12,6 +12,10 @@ A bootstrap 4 remake of the k2 theme for WordPress
 
 <img src="https://github.com/mrpatg/k2b4/blob/master/mobile_menu.gif" align="right" alt="mobile menu animation">
 
+## About
+
+The K2 WordPress theme (2006) was an iconic theme in the early days of WordPress. It was created by Michael Heilemann, and is archived on github [here](https://github.com/Heilemann/k2-for-wordpress). You can learn more about K2 itself by visiting his website [here](http://binarybonsai.com/getk2).
+
 ## Demo
 
  A static generated demo of this theme is available [here](https://mrpatg.github.io/k2b4demo/). 
