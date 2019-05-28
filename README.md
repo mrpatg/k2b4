@@ -14,7 +14,7 @@ A bootstrap 4 remake of the k2 theme for WordPress
 
 ## About
 
-The K2 WordPress theme (2006) was an iconic theme in the early days of WordPress. It was created by Michael Heilemann, and is archived on github [here](https://github.com/Heilemann/k2-for-wordpress). You can learn more about K2 itself by visiting his website [here](http://binarybonsai.com/getk2).
+The K2 WordPress theme (2006) was an iconic theme in the early days of WordPress. It was created by Michael Heilemann, and is archived on github [here](https://github.com/Heilemann/k2-for-wordpress). You can learn more about K2 itself by visiting his website [here](http://binarybonsai.com/getk2). I recreated this theme as a modern/responsive throwback to the style of K2.
 
 ## Demo
 
