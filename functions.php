@@ -3,7 +3,7 @@
 All the functions are in the PHP files in the `functions/` folder.
 */
 
-if ( ! defined('ABSPATH') ) {
+if (!defined('ABSPATH')) {
   exit;
 }
 require get_template_directory() . '/functions/cleanup.php';
@@ -20,6 +20,6 @@ require get_template_directory() . '/functions/class-wp-bootstrap-navwalker.php'
 /*
 Define Menu
 */
-register_nav_menus( array(
-	'primary' => __( 'Primary Menu', 'b4k2' ),
-) );
+register_nav_menus(array(
+  'primary' => __('Primary Menu', 'b4k2'),
+));

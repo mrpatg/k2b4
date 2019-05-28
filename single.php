@@ -1,6 +1,6 @@
 <?php
-    get_header();
-    k2b4_main_before();
+get_header();
+k2b4_main_before();
 ?>
 
 <main id="main" class="container mt-5">
@@ -18,6 +18,6 @@
 </main><!-- /.container -->
 
 <?php
-    k2b4_main_after();
-    get_footer();
+k2b4_main_after();
+get_footer();
 ?>

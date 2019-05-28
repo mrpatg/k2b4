@@ -5,8 +5,9 @@
 
 // Less stuff in <head>
 
-if ( ! function_exists('k2b4_cleanup_head') ) {
-  function k2b4_cleanup_head() {
+if (!function_exists('k2b4_cleanup_head')) {
+  function k2b4_cleanup_head()
+  {
     remove_action('wp_head', 'wp_generator');
     remove_action('wp_head', 'rsd_link');
     remove_action('wp_head', 'wlwmanifest_link');
@@ -24,21 +25,23 @@ add_action('init', 'k2b4_cleanup_head');
 // Show less info to users on failed login for security.
 // (Will not let a valid username be known.)
 
-if ( ! function_exists('show_less_login_info') ) {
-  function show_less_login_info() {
+if (!function_exists('show_less_login_info')) {
+  function show_less_login_info()
+  {
     return "<strong>ERROR</strong>: Stop guessing!";
   }
 }
-add_filter( 'login_errors', 'show_less_login_info' );
+add_filter('login_errors', 'show_less_login_info');
 
 // Do not generate and display WordPress version
 
-if ( ! function_exists('k2b4_remove_generator') ) {
-  function k2b4_remove_generator()  {
+if (!function_exists('k2b4_remove_generator')) {
+  function k2b4_remove_generator()
+  {
     return '';
   }
 }
-add_filter( 'the_generator', 'no_generator' );
+add_filter('the_generator', 'no_generator');
 
 // Remove Query Strings From Static Resources
 
