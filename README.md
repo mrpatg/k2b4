@@ -29,7 +29,7 @@ A bootstrap 4 remake of the k2 theme for WordPress
 
 ## Contributions
 
-Please submit any issues you find w/ the theme/layout. If you want to make fixes,do so and submit a pull request.
+Please submit any issues you find w/ the theme/layout. If you want to make fixes, do so and submit a pull request.
 
 ## Who the hell is that guy in the picture?
 
