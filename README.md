@@ -35,14 +35,6 @@ The K2 WordPress theme (2006) was an iconic theme in the early days of WordPress
 
 Please submit any issues you find w/ the theme/layout. If you want to make fixes, do so and submit a pull request.
 
-## Who the hell is that guy in the picture?
-
-That is some guy from a pexels picture. I needed to church up the background and thought he looked like he was having a load of fun so I tossed him in there.
-
-## Your code is trash
-
-Better than your moms. But for real, MOST of it isn't mine at all. This build is built using the B4ST theme from [Simon Padbury](https://github.com/SimonPadbury/b4st). 
-
 ## License
 
 The amalgomation of code that I have assembled here is licensed through UNLICENSE. That means, you can do whatever you want with this, but I won't help you, and I am not responsisble for you.
